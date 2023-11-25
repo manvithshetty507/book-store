@@ -1,0 +1,27 @@
+.booklist {
+    display: flex;
+    flex-direction: column;
+}
+
+.booklist__top {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-left: 25px;
+    margin-right: 25px;
+    gap: 25px;
+}
+
+.more__heading  h1 {
+    margin: 30px;
+    color: white;
+}
+
+.booklist__bottom {
+    margin-top: 60px;
+    margin-left: 25px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+}
